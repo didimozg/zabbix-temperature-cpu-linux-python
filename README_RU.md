@@ -2,6 +2,8 @@
 
 ![Zabbix 7.0+](https://img.shields.io/badge/Zabbix-7.0%2B-blue) ![Python 3](https://img.shields.io/badge/Python-3.x-yellow) ![Method Sysfs](https://img.shields.io/badge/Method-Direct_Sysfs-green) ![License](https://img.shields.io/badge/License-MIT-grey)
 
+English documentation: [README.md](./README.md).
+
 Продвинутое решение для мониторинга температуры процессора в Zabbix.
 
 В отличие от стандартных решений, этот метод **не использует** парсинг вывода команды `sensors` (lm-sensors). Вместо этого используется Python-скрипт для прямого чтения значений из интерфейса ядра Linux (`/sys/class/hwmon`), что обеспечивает высокую скорость работы, отсутствие накладных расходов на запуск оболочки (shell) и независимость от версий утилит.

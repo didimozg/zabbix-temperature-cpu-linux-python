@@ -1,6 +1,8 @@
-# 🌡️ Zabbix Advanced CPU Temperature (Python/Sysfs)
+# Zabbix Advanced CPU Temperature Monitoring for Linux
 
 ![Zabbix 7.0+](https://img.shields.io/badge/Zabbix-7.0%2B-blue) ![Python 3](https://img.shields.io/badge/Python-3.x-yellow) ![Method Sysfs](https://img.shields.io/badge/Method-Direct_Sysfs-green) ![License](https://img.shields.io/badge/License-MIT-grey)
+
+Russian documentation: [README_RU.md](./README_RU.md).
 
 An advanced solution for monitoring CPU temperatures in Zabbix.
 
